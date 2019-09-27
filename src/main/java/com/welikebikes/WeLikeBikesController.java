@@ -16,7 +16,10 @@ public class WeLikeBikesController
 	{
 		return "start";
 	}
-	
+	/**
+	 * Handle the / endpoint
+	 * @return
+	 */
 	@RequestMapping("/")
 	public String index() 
 	{
